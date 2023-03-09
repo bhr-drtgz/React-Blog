@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
+import AdminHome from "./pages/AdminHome";
+import Login from "./pages/Login";
 
 import api from "./api/api"
 import urls from "./api/urls"
@@ -33,8 +35,8 @@ function App() {
 
   }, [])
 
-  /*if (!blogsState.success || categoriesState.success || userState.success)
-    return null;*/
+  if (!blogsState.success || categoriesState.success || userState.success)
+    return null;
 
   /*if (blogsState.error || categoriesState.error || userState.error) return*/
 
@@ -42,6 +44,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
+        <Route path="/admin" element={<AdminHome />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
