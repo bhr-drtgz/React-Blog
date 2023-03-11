@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import AdminHome from "./pages/AdminHome";
 import Login from "./pages/Login";
+import Error from "./pages/Error"
 
 import api from "./api/api"
 import urls from "./api/urls"
@@ -13,7 +14,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 function App() {
-  const { blogsState, categoriesState, userState } = useSelector(state => state)
+  const { blogsState, categoriesState, usersState } = useSelector(state => state)
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -35,10 +36,11 @@ function App() {
 
   }, [])
 
-  if (!blogsState.success || categoriesState.success || userState.success)
-    return null;
+  /* if (!blogsState.success || categoriesState.success || usersState.success)
+     return null;*/
 
-  /*if (blogsState.error || categoriesState.error || userState.error) return*/
+  if (blogsState.error || categoriesState.error || usersState.error)
+    return <Error />
 
   return (
     <BrowserRouter>

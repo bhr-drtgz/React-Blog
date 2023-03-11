@@ -4,11 +4,11 @@ import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
 const AdminHome = () => {
-    const { LoginState } = useSelector(state => state)
+    const { loginState } = useSelector(state => state)
     const navigate = useNavigate()
 
     useEffect(() => {
-        if (!LoginState.success) navigate("/login")
+        if (!loginState.success) navigate("/login")
     }, [])
 
     return (

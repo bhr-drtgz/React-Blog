@@ -11,12 +11,12 @@ const initialState = {
 
 const loginReducer = (state = initialState, action) => {
     switch (action.type) {
-        case actionTypes.loginActions.GET_LOGIN_START:
+        case actionTypes.loginActions.LOGIN_START:
             return {
                 ...state,
                 pending: true
             }
-        case actionTypes.loginActions.GET_LOGIN_SUCCESS:
+        case actionTypes.loginActions.LOGIN_SUCCESS:
             return {
                 ...state,
                 pending: false,
@@ -24,7 +24,7 @@ const loginReducer = (state = initialState, action) => {
                 error: false,
                 user: action.payload
             }
-        case actionTypes.loginActions.GET_LOGIN_FAIL:
+        case actionTypes.loginActions.LOGIN_FAIL:
             return {
                 ...state,
                 pending: false,

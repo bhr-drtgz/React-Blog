@@ -15,9 +15,9 @@ const actionTypes = {
         GET_USERS_FAIL: "GET_USERS_FAIL",
     },
     loginActions: {
-        GET_LOGIN_START: "GET_LOGIN_START",
-        GET_LOGIN_SUCCESS: "GET_LOGIN_SUCCESS",
-        GET_LOGIN_FAIL: "GET_LOGIN_FAIL",
+        LOGIN_START: "LOGIN_START",
+        LOGIN_SUCCESS: "LOGIN_SUCCESS",
+        LOGIN_FAIL: "LOGIN_FAIL",
         LOGOUT: "LOGOUT"
     }
 }
