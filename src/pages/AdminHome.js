@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Header from '../companent/Header'
 
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -9,10 +10,13 @@ const AdminHome = () => {
 
     useEffect(() => {
         if (!loginState.success) navigate("/login")
-    }, [])
+    }, [loginState])
 
     return (
-        <div>AdminHome</div>
+        <div>
+            <Header />
+            AdminHome
+        </div>
     )
 }
 

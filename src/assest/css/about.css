@@ -1,0 +1,146 @@
+.aboutMainContainer {
+    width: 100%;
+    min-height: calc(100vh - 75px);
+    padding: 50px;
+}
+
+.aboutDescriptionContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 0px 5px 0px rgb(119, 119, 119);
+}
+
+.aboutDescriptionImg {
+    display: flex;
+}
+
+.aboutDescriptionImg img {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.marginTop20 {
+    margin-top: 10px;
+}
+
+.aboutInfosContainer {
+    height: 75%;
+    margin: 20px 0px;
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 0px 5px 0px rgb(119, 119, 119);
+
+}
+
+.aboutInfosLeftContainer {
+    width: 160px;
+    height: 300px;
+}
+
+
+.aboutInfosLeftItemContainer {
+    display: flex;
+    gap: 5px;
+    padding: 10px 15px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.aboutInfosLeftItemContainer span {
+    font-size: 12px;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.icons i {
+    color: black;
+    font-size: larger;
+    padding: 10px;
+}
+
+.aboutInfosRightContainer {
+    min-width: calc(100% - 160px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.aboutInfosRightMainContainer {
+    min-width: 75%;
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.simpleProjeCartConteiner {
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.simpleProjeCartConteinerImg {
+    width: 200px;
+    height: 200px;
+}
+
+.simpleProjeCartConteinerImg img {
+    width: 100%;
+}
+
+.simpleProjeCartConteinerLink  {
+    padding-right: 0;
+    text-decoration: none;
+    border: none;
+    padding: 0px 10px;
+    background-color: #a4a3c3;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.2s linear;
+    box-shadow: 2px 2px 2px 2px #65647C;
+
+}
+
+.simpleProjeCartConteinerImg a:hover {
+    box-shadow: 0px 0px 5px 0px #565656;
+
+}
+
+ 
+    @media screen and (max-width: 500px) {
+        .aboutInfosContainer {
+            flex-direction: column-reverse;
+        }
+        .aboutDescriptionContainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .aboutDescriptionContentContainer h3 , h4{
+            text-align: center;
+        }
+
+ 
+        .aboutInfosLeftContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }

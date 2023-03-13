@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
+import Header from '../companent/Header'
+import CategoriesSection from '../companent/CategoriesSection'
 
 
 const Home = () => {
@@ -9,12 +11,13 @@ const Home = () => {
   return (
 
     <div>
-      {
-        loginState.success === false && (
-          <Link to={"/login"}>Login</Link>
-        )
-      }
-      <h1>ANASAYFA</h1>
+      <Header />
+      <main className='mainContainer'>
+        <CategoriesSection />
+        <section class="rightSide">
+
+        </section>
+      </main>
     </div>
   )
 }

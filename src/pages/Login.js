@@ -35,6 +35,14 @@ const Login = () => {
 
         }
         dispatch({ type: actionTypes.loginActions.LOGIN_SUCCESS, payload: { username: hasUsers.username, role: hasUsers.role }, })
+        const successLoginState = {
+            pending: false,
+            success: true,
+            error: false,
+            errorMessage: "",
+            user: { username: hasUsers.username, role: hasUsers.role }
+        }
+        localStorage.setItem("loginState", JSON.stringify(successLoginState))
         navigate("/")
     }
 

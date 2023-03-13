@@ -4,7 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import AdminHome from "./pages/AdminHome";
 import Login from "./pages/Login";
-import Error from "./pages/Error"
+import Error from "./pages/Error";
+
+import "./assest/css/about.css";
+import "./assest/css/blogDetail.css";
+import "./assest/css/header.css";
+import "./assest/css/main.css";
+
 
 import api from "./api/api"
 import urls from "./api/urls"
@@ -33,6 +39,26 @@ function App() {
     api.get(urls.users)
       .then(res => dispatch({ type: actionType.userActions.GET_USERS_SUCCESS, payload: res.data }))
       .catch(err => dispatch({ type: actionType.userActions.GET_USERS_FAIL, payload: "Userleri Çekilirken Bir Hata Oluştu" }))
+
+    const loginStateFromLocalstorage = JSON.parse(
+      localStorage.getItem("loginState")
+    )
+    if (loginStateFromLocalstorage === null) {
+      localStorage.setItem(
+        "loginState",
+        JSON.stringify({
+          pending: false,
+          success: false,
+          error: false,
+          errorMessage: "",
+          user: null
+        })
+      )
+    } else {
+      if (loginStateFromLocalstorage.success) {
+        dispatch({ type: actionType.loginActions.LOGIN_SUCCESS, payload: loginStateFromLocalstorage.user, })
+      }
+    }
 
   }, [])
 
