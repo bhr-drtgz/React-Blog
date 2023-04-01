@@ -40,9 +40,11 @@
     padding: 10px 15px;
     font-weight: 600;
     border-bottom: 1px solid #d5d5d5;
-    color: #565656;
+    color: white;
+    background: #65647C;
 }
-.categoriesTitleContainer p{
+
+.categoriesTitleContainer p {
     margin-bottom: 0 !important;
 }
 
@@ -51,6 +53,7 @@
     border-bottom: 1px solid #d5d5d5;
     color: #565656;
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 
 .categoriesList {

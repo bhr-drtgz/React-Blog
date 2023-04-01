@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <main className='mainContainer'>
         <CategoriesSection />
-        <section class="rightSide">
+        <section className="rightSide">
 
         </section>
       </main>

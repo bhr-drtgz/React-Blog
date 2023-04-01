@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-    box-shadow: 5px 0px 20px 5px #65647C;
+    box-shadow: 5px 0px 15px 5px #65647C;
     z-index: 1;
 }
 
@@ -55,7 +55,9 @@ nav ul {
     height: 75px;
     top: 0;
     right: 0;
-    display: none
+    display: none;
+    cursor: pointer;
+    
 }
 
 .menuIconContainer span {
@@ -70,7 +72,7 @@ nav ul {
         justify-content: center;
         align-items: center;
     }
-
+     
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -93,3 +95,4 @@ nav ul {
     }
 
 }
+ 
