@@ -1,55 +1,71 @@
 {
-    "blogs": [
-        {
-            "id": "1",
-            "title": "Html Nedir",
-            "description": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
-            "content": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
-            "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F28020%2Fhtml5-logo-icon-3d-hd-png&psig=AOvVaw3V1Sl_HEWAGcos_oZGt152&ust=1678293303176000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjd6vKfyv0CFQAAAAAdAAAAABAE",
-            "categoryId": "1",
-            "userId": "1"
-        }
-    ],
-    "categories": [
-        {
-            "id": "1",
-            "name": "Html"
-        },
-        {
-            "id": "2",
-            "name": "Css"
-        },
-        {
-            "id": "3",
-            "name": "js"
-        },
-        {
-            "id":"4",
-            "name":"React"
-        },
-        {
-            "id":"5",
-            "name":"TypeScript"
-        }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "supperAdmin",
-            "password": "superAdmin",
-            "role": "admin"
-        },
-        {
-            "id": "2",
-            "username": "blogger1",
-            "password": "blogger1",
-            "role": "blogger"
-        },
-        {
-            "id": "3",
-            "username": "blogger2",
-            "password": "blogger2",
-            "role": "blogger"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Html Nedir ?",
+      "description": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
+      "content": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F28020%2Fhtml5-logo-icon-3d-hd-png&psig=AOvVaw3V1Sl_HEWAGcos_oZGt152&ust=1678293303176000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjd6vKfyv0CFQAAAAAdAAAAABAE",
+      "categoryId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "1680467324418",
+      "title": "js",
+      "description": "js js js ",
+      "content": "jsjsjsjsjsj&nbsp;",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+      "categoryId": "3"
+    },
+    {
+      "id": "1680467853861",
+      "title": "html",
+      "description": "html",
+      "content": "sgsfdgfd",
+      "img": "https://i.ytimg.com/vi/wUN6Ffli33U/maxresdefault.jpg",
+      "categoryId": "4"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Html"
+    },
+    {
+      "id": "2",
+      "name": "Css"
+    },
+    {
+      "id": "3",
+      "name": "js"
+    },
+    {
+      "id": "4",
+      "name": "React"
+    },
+    {
+      "id": "5",
+      "name": "TypeScript"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "supperAdmin",
+      "password": "supperAdmin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "blogger1",
+      "password": "blogger1",
+      "role": "blogger"
+    },
+    {
+      "id": "3",
+      "username": "blogger2",
+      "password": "blogger2",
+      "role": "blogger"
+    }
+  ]
 }
