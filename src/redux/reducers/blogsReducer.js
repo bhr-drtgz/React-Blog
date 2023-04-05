@@ -1,6 +1,6 @@
-import actionTypes from './../actions/actionTypes';
+import actionTypes from "../actions/actionTypes";
 
-const initialState = {
+const initialState={
     pending: false,
     success: false,
     blogs: [],
@@ -8,31 +8,37 @@ const initialState = {
     errorMessage: ""
 }
 
-const blogReduser = (state = initialState, action) => {
+const blogsReducer=(state=initialState,action)=>{
     switch (action.type) {
         case actionTypes.blogActions.GET_BLOGS_START:
-            return {
+            return{
                 ...state,
-                pending: true,
+                pending: true
             }
         case actionTypes.blogActions.GET_BLOGS_SUCCESS:
-            return {
+            return{
                 ...state,
                 pending: false,
                 success: true,
                 error: false,
                 blogs: action.payload
-             }
+            }
         case actionTypes.blogActions.GET_BLOGS_FAIL:
             return{
                 ...state,
                 pending:false,
-                success:false,
-                error:true,
-                errorMessage:action.payload
-            }     
+                success: false,
+                error: true,
+                errorMessage: action.payload
+            }    
+        case actionTypes.blogActions.ADD_BLOG:
+            return{
+                ...state,
+                blogs:[...state.blogs,action.payload]
+            }
         default:
-            return state;
+            return state
     }
 }
-export default blogReduser
+
+export default blogsReducer

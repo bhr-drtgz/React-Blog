@@ -18,17 +18,16 @@ const Home = () => {
           {
             blogsState.blogs.map(blog => {
               return (
-                <div key={blog.id} class="cardContainer">
-                  <div class="cardImageContainer">
+                <div key={blog.id} className="cardContainer">
+                  <div className="cardImageContainer">
                     <img src={blog.img} alt="" />
                   </div>
-                  <h3 class="blogTitle">{blog.title}</h3>
-                  <p class="blogSummary">
+                  <h3 className="blogTitle">{blog.title}</h3>
+                  <p className="blogSummary">
                     {blog.description}
                   </p>
-                  <div class="card-btn-container">
-                    <a
-                      Link to={`/blog/${blog?.id}`} class="card-btn">Devamını Oku</a>
+                  <div className="card-btn-container">
+                    <Link to={`/blog/${blog?.id}`} className="card-btn">Devamını Oku</Link>
                   </div>
                 </div>
               )

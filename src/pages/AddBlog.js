@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import Header from "../companent/Header"
-import SubMenü from "../companent/SubMenü";
+import Header from "../companent/Header";
+import SubMenu from "../companent/SubMenü";
 /* import ReactRichEditor from "react-rich-text-editor"; */
 import Editor from "react-simple-wysiwyg";
 import { Form, Button } from "react-bootstrap";
@@ -43,7 +43,7 @@ const AddBlog = () => {
     return (
         <div>
             <Header />
-            <SubMenü isAdmin={loginState?.user?.role === "admin"} />
+            <SubMenu isAdmin={loginState?.user?.role === "admin"} />
             <div style={{ padding: "30px" }}>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3">

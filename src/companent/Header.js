@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
+
 import "../assest/css/header.css"
 import Logo from "../assest/image/LOGO.jpg"
+
 import { useSelector, useDispatch } from 'react-redux'
 import actionTypes from '../redux/actions/actionTypes'
 import { Link } from 'react-router-dom'
@@ -8,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     const dispatch = useDispatch()
-    const { loginState } = useSelector(state => state)
+    const { loginState } = useSelector((state) => state)
 
     useEffect(() => {
         const menuBtn = document.getElementById("hamburgerMenuBtn");
@@ -52,9 +54,6 @@ const Header = () => {
                         <li>
                             <a href="./HTML/about.html">Hakkımda</a>
                         </li>
-                        <li>
-                            <a href=" ">Tüm Yazılar</a>
-                        </li>
                         {
                             !loginState.success ?
                                 (
@@ -76,17 +75,14 @@ const Header = () => {
                                                 className='btn btn-sm btn-success'>
                                                 {loginState.user.username}-logout</button>
                                         </li>
-
                                     </>
                                 )
                         }
                     </ul>
                 </nav>
             </header>
-
         </div>
     )
-
 }
 
 export default Header

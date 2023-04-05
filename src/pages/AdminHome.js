@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import ListBlogs from '../companent/ListBlogs'
 
 const AdminHome = () => {
-    const { loginState } = useSelector(state => state)
+    const { loginState } = useSelector((state) => state)
     const navigate = useNavigate()
 
     useEffect(() => {

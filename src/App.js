@@ -6,6 +6,7 @@ import AdminHome from "./pages/AdminHome";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
 import AddBlog from "./pages/AddBlog";
+import BlogDetail from "./pages/BlogDetail";
 
 import "./assest/css/about.css";
 import "./assest/css/blogDetail.css";
@@ -73,9 +74,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/admin/add-blog" element={<AddBlog />} />
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/blog/:blogId" element={<BlogDetail />} />
       </Routes>
     </BrowserRouter>
   );

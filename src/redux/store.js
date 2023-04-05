@@ -5,7 +5,6 @@ import categoriesReduser from './reducers/categoriesReducer';
 import loginReducer from './reducers/loginReducer';
 import usersReduser from './reducers/usersReducer';
 
-
 const rootReducer = combineReducers({
     blogsState: blogsReduser,
     categoriesState: categoriesReduser,

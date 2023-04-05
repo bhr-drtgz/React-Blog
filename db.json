@@ -2,57 +2,59 @@
   "blogs": [
     {
       "id": "1",
-      "title": "Html Nedir ?",
-      "description": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
-      "content": "Validates the HTML string/file for well-formedness and compliance with w3c standards. It tries to make use of the doctype declaration to evaluate the document structrue but will resort to best practice if unmatched. The validator will report on missing or invalid attributes, unknown tags, unclosed tags and more.",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F28020%2Fhtml5-logo-icon-3d-hd-png&psig=AOvVaw3V1Sl_HEWAGcos_oZGt152&ust=1678293303176000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjd6vKfyv0CFQAAAAAdAAAAABAE",
+      "title": "HTML Nedir?",
+      "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
       "categoryId": "1",
       "userId": "1"
     },
     {
-      "id": "1680467324418",
-      "title": "js",
-      "description": "js js js ",
-      "content": "jsjsjsjsjsj&nbsp;",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
-      "categoryId": "3"
+      "id": "2",
+      "title": "HTML Elementleri",
+      "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+      "categoryId": "1",
+      "userId": "2"
     },
     {
-      "id": "1680467853861",
-      "title": "html",
-      "description": "html",
-      "content": "sgsfdgfd",
-      "img": "https://i.ytimg.com/vi/wUN6Ffli33U/maxresdefault.jpg",
-      "categoryId": "4"
+      "id": "1680686714799",
+      "title": "React Nedir",
+      "description": "Giriş düzeyinde React.",
+      "content": "<span style=\"color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; white-space: pre-wrap; background-color: rgb(68, 70, 84);\">React, Facebook tarafından geliştirilen açık kaynaklı bir JavaScript kütüphanesidir. Web uygulamalarında kullanılan kullanıcı arayüzlerinin oluşturulması için tasarlanmıştır. React, bileşen tabanlı bir yaklaşım kullanarak uygulamaların parçalara ayrılmasını sağlar. Bu bileşenler, birden fazla özellikler ve yöntemler içerebilir ve birlikte çalışarak tam bir kullanıcı arayüzü oluşturabilirler. React, Virtual DOM denilen bir yöntem kullanarak uygulamaların performansını artırır ve uygulama arayüzünün hızlı bir şekilde güncellenmesini sağlar. Bu nedenle, günümüzde birçok büyük ölçekli web uygulaması React kullanmaktadır.</span>",
+      "img": "https://cdn.worldvectorlogo.com/logos/react-1.svg",
+      "categoryId": "5",
+      "userId": "1"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "Html"
+      "name": "Tüm Yazılar"
     },
     {
       "id": "2",
-      "name": "Css"
+      "name": "Html"
     },
     {
       "id": "3",
-      "name": "js"
+      "name": "Css"
     },
     {
       "id": "4",
-      "name": "React"
+      "name": "Js"
     },
     {
       "id": "5",
-      "name": "TypeScript"
+      "name": "React"
     }
   ],
   "users": [
     {
       "id": "1",
-      "username": "supperAdmin",
-      "password": "supperAdmin",
+      "username": "superadmin",
+      "password": "superadmin",
       "role": "admin"
     },
     {

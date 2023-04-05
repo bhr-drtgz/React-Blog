@@ -1,10 +1,10 @@
 import React from 'react'
+
 import { useSelector } from 'react-redux'
 
 const CategoriesSection = () => {
-    const { categoriesState } = useSelector(state => state)
-
-    return (
+    const { categoriesState } = useSelector((state) => state)
+     return (
         <section className="leftSide">
             <div className="categoriesTitleContainer">
                 <p>KATEGORİLER</p>
